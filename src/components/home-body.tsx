@@ -74,7 +74,7 @@ export function HomeBody() {
                 </div>
               </div>
               <img
-                src="/placeholder.svg"
+                src="/images/man-working.png"
                 width="550"
                 height="550"
                 alt="Hero"
@@ -126,7 +126,7 @@ export function HomeBody() {
                 </ul>
               </div>
               <img
-                src="/placeholder.svg"
+                src="/images/whiteboarding.png"
                 width="550"
                 height="310"
                 alt="Image"
@@ -150,7 +150,7 @@ export function HomeBody() {
                 </p>
               </div>
               <img
-                src="/placeholder.svg"
+                src="images/woman-looking.png"
                 alt="AI Readiness Assessment"
                 className="w-full max-w-3xl rounded-lg"
                 width="600"
