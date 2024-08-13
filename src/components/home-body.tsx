@@ -139,13 +139,12 @@ export function HomeBody() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Week 1: AI Readiness</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  The 6 driving forces behind successful (and unsuccessful) AI use cases
+                Week 1: AI Readiness
                 </h2>
+                <h4 className="text-2xl">The 6 driving forces behind successful (and unsuccessful) AI use cases</h4>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  In this first week, we&#39;ll dive into the key factors that determine whether an AI initiative will
-                  succeed or fail. You&#39;ll learn how to assess your organization&#39;s AI readiness and identify the areas
+                  You&#39;ll learn how to assess your organization&#39;s AI readiness and identify the areas
                   you need to focus on to set your HR team up for long-term success.
                 </p>
               </div>
@@ -160,18 +159,17 @@ export function HomeBody() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 bg-muted">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Week 2: Select Use Case</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  5 tips for finding an AI use case that offers tangible business outcomes
+                Week 2: Select Use Case
                 </h2>
+                <h4 className="text-2xl">5 tips for choosing an AI use case that offers real results</h4>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  In the second week, we&#39;ll guide you through the process of identifying the most impactful AI use cases
-                  for your HR department. You&#39;ll learn how to navigate common concerns and ensure your initiatives
-                  deliver real, measurable results.
+                   You&#39;ll learn how to navigate common concerns and ensure your initiatives
+                  deliver measurable business outcomes.
                 </p>
               </div>
               <img
@@ -189,10 +187,10 @@ export function HomeBody() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Week 3: Prototype</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  3 steps to building a proof-of-concept
+                  Week 3: Prototype
                 </h2>
+                <h4 className="text-2xl">3 steps to building a proof-of-concept</h4>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   In the third week, you&#39;ll learn how to quickly build a proof-of-concept that demonstrates the value of
                   your AI initiatives. We&#39;ll show you how to leverage AI tools and platforms to create prototypes that
@@ -224,10 +222,10 @@ export function HomeBody() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Week 4: Scale</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Prepare your proof-of-concept for scale
+                Week 4: Scale
                 </h2>
+                <h4 className="text-2xl">How to scale your proof-of-concept</h4>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   In the final week, we&#39;ll help you take your proof-of-concept to the next level. You&#39;ll learn how to
                   create a comprehensive action plan that will guide you through the process of scaling your AI
@@ -243,6 +241,73 @@ export function HomeBody() {
                 height="400"
                 style={{ aspectRatio: "600/400", objectFit: "cover" }}
               />
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Most AI transformations...</div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What to Expect (and How We Help)</h2>
+                <ul className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-left">
+                  <li>
+                    <h3 className="text-xl font-bold">Come with employees saying, "I am afraid for my job."</h3>
+                    <p>(We help you address the cultural element of a successful AI adoption.)</p>
+                  </li>
+                  <li>
+                    <h3 className="text-xl font-bold">Have buyer&apos;s remorse after wasting a ton of time and money.</h3>
+                    <p>
+                      (We help you identify use cases that generate business results and have a high chance of success.)
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-xl font-bold">Come with questions about bias, accuracy, and legality.</h3>
+                    <p>
+                      (We help you develop a safe proof-of-concept you can show to stakeholders to get their buy-in.)
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Become your company&apos;s go-to leader on AI
+                </h2>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Inside the AI in HR Mastermind, you’ll get resources curated for HR leaders, interactive and hands-on group training sessions, reusable templates and frameworks, and networking opportunities with like-minded HR and People leaders from some of the best companies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Who should join the AI for HR mastermind?
+                </h2>
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="text-xl font-bold">Leaders who want to start or streamline their AI journey</h3>
+                    <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                      Are you looking for ways to get started with AI? Or maybe you’re experimenting with AI tools and need better ways to test your progress and get buy-in? If you’re starting or upskilling in AI, this mastermind group is for you.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">Leaders who want to network with other early adopters</h3>
+                    <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                      Want to learn from what others are doing? Are you looking for benchmarks and feedback on what you’ve tried so far? You’ll have an opportunity to network and trade notes with other amazing HR leaders who are passionate about AI.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
