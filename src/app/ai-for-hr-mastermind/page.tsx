@@ -156,7 +156,7 @@ export default function HomeBody() {
                   Become your company&apos;s go-to leader on AI
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Inside the AI in HR Mastermind, you'll get resources curated for HR leaders, interactive and hands-on group training sessions, reusable templates and frameworks, and networking opportunities with like-minded HR and People leaders from some of the best companies.
+                  Inside the AI in HR Mastermind, you&apos;ll get resources curated for HR leaders, interactive and hands-on group training sessions, reusable templates and frameworks, and networking opportunities with like-minded HR and People leaders from some of the best companies.
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ export default function HomeBody() {
                   <div>
                     <h3 className="text-xl font-bold">Leaders who want to start or streamline their AI journey</h3>
                     <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                      Are you looking for ways to get started with AI? Or maybe you’re experimenting with AI tools and need better ways to test your progress and get buy-in? If you’re starting or upskilling in AI, this mastermind group is for you.
+                      Are you looking for ways to get started with AI? Or maybe you&apos;re experimenting with AI tools and need better ways to test your progress and get buy-in? If you&apos;re starting or upskilling in AI, this mastermind group is for you.
                     </p>
                   </div>
                   <div>
