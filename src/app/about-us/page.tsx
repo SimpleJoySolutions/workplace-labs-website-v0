@@ -25,6 +25,12 @@ export default function AboutUs() {
                 bio="John is an AI expert with a background in machine learning and a vision for creating ethical, unbiased AI tools for the HR industry."
                 imageSrc="/images/man-looking.png"
               />
+                      {/* <FounderProfile
+                name="Jonathan Flower"
+                role="Co-Founder & CTO"
+                bio="Jonathan is an AI Engineer and Software Architect with a background in scalable enterprise software engineering and a vision for guiding teams on the best way to empower themselves with AI."
+                imageSrc="/images/man-looking.png"
+              /> */}
             </div>
           </div>
         </section>
