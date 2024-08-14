@@ -17,7 +17,6 @@ const fontBody = Taviraj({
   variable: '--font-body',
   weight: '400',
 })
-
 // const fontBody = Manrope({
 //   subsets: ['latin'],
 //   display: 'swap',
