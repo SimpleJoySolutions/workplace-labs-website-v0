@@ -132,7 +132,7 @@ export default function HomeBody() {
                     <p>(We help you address the cultural element of a successful AI adoption.)</p>
                   </li>
                   <li>
-                    <h3 className="text-xl font-bold">Have buyer&apos;s remorse after wasting a ton of time and money.</h3>
+                    <h3 className="text-xl font-bold">Have buyer's remorse after wasting a ton of time and money.</h3>
                     <p>
                       (We help you identify use cases that generate business results and have a high chance of success.)
                     </p>
