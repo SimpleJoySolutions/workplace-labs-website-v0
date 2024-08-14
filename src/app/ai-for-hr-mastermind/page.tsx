@@ -114,12 +114,21 @@ export default function HomeBody() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Most AI transformations...</h2>
-                <ul className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-left">
+            <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
+              <div className="w-full md:w-1/2">
+                <Image
+                  src="/images/lines-w-circles.png"
+                  width={600}
+                  height={400}
+                  alt="AI Transformation Challenges"
+                  className="rounded-xl object-cover"
+                />
+              </div>
+              <div className="w-full md:w-1/2 space-y-4">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center md:text-left">Most AI transformations...</h2>
+                <ul className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-left space-y-4">
                   <li>
-                    <h3 className="text-xl font-bold">Come with employees saying, "I am afraid for my job."</h3>
+                    <h3 className="text-xl font-bold">Come with employees saying, &quot;I am afraid for my job.&quot;</h3>
                     <p>(We help you address the cultural element of a successful AI adoption.)</p>
                   </li>
                   <li>
@@ -147,9 +156,25 @@ export default function HomeBody() {
                   Become your company&apos;s go-to leader on AI
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Inside the AI in HR Mastermind, you’ll get resources curated for HR leaders, interactive and hands-on group training sessions, reusable templates and frameworks, and networking opportunities with like-minded HR and People leaders from some of the best companies.
+                  Inside the AI in HR Mastermind, you'll get resources curated for HR leaders, interactive and hands-on group training sessions, reusable templates and frameworks, and networking opportunities with like-minded HR and People leaders from some of the best companies.
                 </p>
               </div>
+            </div>
+            <div className="flex justify-center space-x-8 mt-8">
+              <Image
+                src="/images/woman-looking.png"
+                width={400}
+                height={300}
+                alt="AI in HR Mastermind"
+                className="rounded-lg"
+              />
+              <Image
+                src="/images/desk-with-computer.png"
+                width={400}
+                height={300}
+                alt="HR Leaders Collaboration"
+                className="rounded-lg"
+              />
             </div>
           </div>
         </section>
@@ -266,36 +291,7 @@ export default function HomeBody() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 AI Mastermind. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-            Terms of Service
-          </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-            Privacy
-          </Link>
-        </nav>
-      </footer>
     </div>
   )
 }
 
-function MountainIcon(props: any) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  )
-}
