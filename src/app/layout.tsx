@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Taviraj } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import "./globals.css";
+import { Header } from "@/components/header";
 
 const fontHeading = Manrope({
   subsets: ['latin'],
@@ -40,6 +41,7 @@ export default function RootLayout({
           fontBody.variable
         )}
       >
+        <Header />
         {children}
       </body>
     </html>
