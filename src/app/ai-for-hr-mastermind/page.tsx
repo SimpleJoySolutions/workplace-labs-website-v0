@@ -160,20 +160,22 @@ export default function HomeBody() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center space-x-8 mt-8">
+            <div className="grid grid-cols-2 gap-4 mt-8">
               <Image
                 src="/images/woman-looking.png"
-                width={400}
-                height={300}
                 alt="AI in HR Mastermind"
                 className="rounded-lg"
+                width={400}
+                height={300}
+                style={{ aspectRatio: '400/300', objectFit: 'cover' }}
               />
               <Image
                 src="/images/desk-with-computer.png"
-                width={400}
-                height={300}
                 alt="HR Leaders Collaboration"
                 className="rounded-lg"
+                width={400}
+                height={300}
+                style={{ aspectRatio: '400/300', objectFit: 'cover' }}
               />
             </div>
           </div>

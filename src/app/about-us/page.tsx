@@ -6,12 +6,14 @@ export default function AboutUs() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none mb-8">
-              About Us
-            </h1>
-            <p className="max-w-[800px] text-muted-foreground md:text-xl mb-12">
-              We are passionate about empowering HR professionals with cutting-edge AI solutions to transform workplaces.
-            </p>
+            <div className="flex flex-col items-center text-center mb-12">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none mb-4">
+                About Us
+              </h1>
+              <p className="max-w-[800px] text-muted-foreground md:text-xl">
+                We are passionate about empowering HR professionals with cutting-edge AI solutions to transform workplaces.
+              </p>
+            </div>
             <div className="grid gap-12 lg:grid-cols-2">
               <FounderProfile
                 name="Jane Doe"
@@ -20,17 +22,21 @@ export default function AboutUs() {
                 imageSrc="/images/woman-looking.png"
               />
               <FounderProfile
-                name="John Smith"
-                role="Co-Founder & CTO"
-                bio="John is an AI expert with a background in machine learning and a vision for creating ethical, unbiased AI tools for the HR industry."
-                imageSrc="/images/man-looking.png"
-              />
-                      {/* <FounderProfile
                 name="Jonathan Flower"
                 role="Co-Founder & CTO"
-                bio="Jonathan is an AI Engineer and Software Architect with a background in scalable enterprise software engineering and a vision for guiding teams on the best way to empower themselves with AI."
-                imageSrc="/images/man-looking.png"
-              /> */}
+                bio="Jonathan is an AI Engineer and Software Architect with a background in scalable enterprise software and a vision for the best way to empower yourself with AI."
+                imageSrc="/images/jonathan-square.webp"
+              />
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-6 md:py-8 bg-muted">
+          <div className="container px-4 md:px-6 mx-auto max-w-7xl">
+            <div className="text-sm text-muted-foreground">
+              <p>
+                <strong>Note:</strong> The majority of the images on this site were generated using Juggernaut XL with a Suprematism style, 
+                run locally on an M1 MacBook Pro.
+              </p>
             </div>
           </div>
         </section>
