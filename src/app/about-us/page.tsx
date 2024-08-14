@@ -20,6 +20,7 @@ export default function AboutUs() {
                 role="Co-Founder & CEO"
                 bio="Jane has over 15 years of experience in HR technology and is dedicated to bridging the gap between AI and human-centric HR practices."
                 imageSrc="/images/woman-looking.png"
+                linkedInUrl="https://www.linkedin.com/in/jonathan-flower/"
               />
               <FounderProfile
                 name="Jonathan Flower"
