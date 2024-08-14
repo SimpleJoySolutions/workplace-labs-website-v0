@@ -35,7 +35,7 @@ export function HomeBody() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Don&apos;t let your business fall behind or else you will die. 
+                    Don&apos;t let your business fall behind. 
                   </h1>
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none py-4">Get started with AI in your workplace.</h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
