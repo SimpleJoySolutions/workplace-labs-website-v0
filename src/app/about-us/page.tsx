@@ -24,7 +24,10 @@ export default function AboutUs() {
               <FounderProfile
                 name="Jonathan Flower"
                 role="Co-Founder & CTO"
-                bio="Jonathan is an AI Engineer and Software Architect with a background in scalable enterprise software and a vision for the best way to empower yourself with AI."
+                bio="Jonathan is an AI Engineer and Software Architect with a background in scalable enterprise solutions for clients such as BeaconMadeas and The Salvation Army.
+                Founder of Simple Joy Solutions, Jonathan crafted a code blockchain solutions such as ArtForge and Mincraft.  Over the last year he has invested 
+                heavily into learning artificial intelligence.  Jonathan completed an MIT Sloan course on AI: Implications for Business Strategy.  Jonathan has built a 
+                number of AI agents leveraging knowledge graphs, mixture of experts, and LangChain."
                 imageSrc="/images/jonathan-square.webp"
               />
             </div>
