@@ -2,6 +2,7 @@
   "name": "workplace-labs-website-v0",
   "version": "0.1.0",
   "private": true,
+  "author": "Jonathan Flower",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
