@@ -48,7 +48,7 @@ function LandingPage() {
             spot use cases aligned with business goals, and turn their teams into the go-to company experts on AI.{' '}
             <br />
             Our mission is to cut through the noise and teach AI skills that help HR leaders create more engaged, equitable, and
-            evidence-based workplaces.
+            evidence-based workplaces. Come Join us!
           </p>
         </div>
 
