@@ -39,7 +39,7 @@ export default function AboutUs() {
             <div className="text-sm text-muted-foreground">
               <p>
                 <strong>Note:</strong> The majority of the images on this site were generated using Juggernaut XL with a Suprematism style, 
-                run locally on an M1 MacBook Pro.
+                run locally on an M1 MacBook Pro.  The site was built with the help of v0 by Vercel, ChatGPT, and Llama 3.1.
               </p>
             </div>
           </div>
