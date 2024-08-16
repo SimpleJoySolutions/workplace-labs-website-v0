@@ -19,15 +19,6 @@ export const HomeBody = () => {
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
                     Transforming HR with the Power of AI
                   </p>
-                  <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                    <Link
-                      href="/ai-for-hr-mastermind"
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-                      prefetch={false}
-                    >
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
               <Image
@@ -50,8 +41,11 @@ export const HomeBody = () => {
                   At Workplace Labs, we blend the expertise of an AI Engineer with the insights of a Workplace Psychologist to help your organization seamlessly integrate AI into your workforce. We understand that adopting AI isn't just about the technology—it's about your people. Our mission is to empower your employees by guiding them through the AI transformation process, ensuring they feel confident and supported every step of the way.
                 </p>
                 <h3 className="text-2xl font-bold mb-4">Why AI in HR?</h3>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  The future of work is here, and AI is leading the charge. <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">A staggering 81% of HR leaders are already exploring or implementing AI solutions.</Link>
+                </p>
                 <p className="text-muted-foreground md:text-xl mb-8">
-                  The future of work is here, and AI is at its forefront. But AI is more than just a tool—it's a partner in enhancing productivity, job satisfaction, and overall organizational success. The real challenge isn't just introducing AI; it's about making your employees feel valued, secure, and competent in a world that's rapidly evolving. We specialize in turning AI resistance into AI empowerment, ensuring your team not only adapts but thrives.
+                  AI isn't just a tool—it's a game-changing partner in boosting productivity, job satisfaction, and organizational success. The real challenge? Making your employees feel valued, secure, and competent in this AI-driven world. We're experts at turning AI resistance into AI empowerment, ensuring your team doesn't just adapt—it thrives.
                 </p>
               </div>
               <Image
@@ -83,7 +77,6 @@ export const HomeBody = () => {
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
                   <li><strong>Research-Based Content</strong>: Our strategies are grounded in behavioral science and real-world research, not just marketing fluff. We provide HR teams with the tools and knowledge they need to integrate AI effectively and compassionately.</li>
                   <li><strong>Employee Empowerment</strong>: We guide your employees through the AI transition, addressing fears and boosting confidence. We help them see AI as an ally in their work, not a threat.</li>
-                  <li><strong>Scalable Solutions</strong>: Our content and tools are designed to scale, providing high-impact, high-margin results that grow with your organization.</li>
                 </ul>
               </div>
             </div>
@@ -128,7 +121,7 @@ export const HomeBody = () => {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">The AI for HR Mastermind</h2>
             <p className="text-xl mb-8">Elevate your HR Strategy with our exclusive Mastermind Class</p>
@@ -156,9 +149,9 @@ export const HomeBody = () => {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Stay Ahead of the Curve</h2>
             <p className="text-muted-foreground md:text-xl mb-8">
