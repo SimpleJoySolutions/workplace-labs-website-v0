@@ -43,27 +43,54 @@ export const HomeBody = () => {
 
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Transforming HR with the Power of AI</h2>
-            <p className="text-muted-foreground md:text-xl mb-8">
-              At Workplace Labs, we blend the expertise of an AI Engineer with the insights of a Workplace Psychologist to help your organization seamlessly integrate AI into your workforce. We understand that adopting AI isn't just about the technology—it's about your people. Our mission is to empower your employees by guiding them through the AI transformation process, ensuring they feel confident and supported every step of the way.
-            </p>
-            <h3 className="text-2xl font-bold mb-4">Why AI in HR?</h3>
-            <p className="text-muted-foreground md:text-xl mb-8">
-              The future of work is here, and AI is at its forefront. But AI is more than just a tool—it's a partner in enhancing productivity, job satisfaction, and overall organizational success. The real challenge isn't just introducing AI; it's about making your employees feel valued, secure, and competent in a world that's rapidly evolving. We specialize in turning AI resistance into AI empowerment, ensuring your team not only adapts but thrives.
-            </p>
-            <h3 className="text-2xl font-bold mb-4">Our Approach</h3>
-            <p className="text-muted-foreground md:text-xl mb-4">
-              We don't believe in a one-size-fits-all solution. Your organization has its unique culture, challenges, and goals. Our approach is tailored to meet those needs, focusing on:
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
-              <li><strong>Research-Based Content</strong>: Our strategies are grounded in behavioral science and real-world research, not just marketing fluff. We provide HR teams with the tools and knowledge they need to integrate AI effectively and compassionately.</li>
-              <li><strong>Employee Empowerment</strong>: We guide your employees through the AI transition, addressing fears and boosting confidence. We help them see AI as an ally in their work, not a threat.</li>
-              <li><strong>Scalable Solutions</strong>: Our content and tools are designed to scale, providing high-impact, high-margin results that grow with your organization.</li>
-            </ul>
+            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Transforming HR with the Power of AI</h2>
+                <p className="text-muted-foreground md:text-xl mb-8">
+                  At Workplace Labs, we blend the expertise of an AI Engineer with the insights of a Workplace Psychologist to help your organization seamlessly integrate AI into your workforce. We understand that adopting AI isn't just about the technology—it's about your people. Our mission is to empower your employees by guiding them through the AI transformation process, ensuring they feel confident and supported every step of the way.
+                </p>
+                <h3 className="text-2xl font-bold mb-4">Why AI in HR?</h3>
+                <p className="text-muted-foreground md:text-xl mb-8">
+                  The future of work is here, and AI is at its forefront. But AI is more than just a tool—it's a partner in enhancing productivity, job satisfaction, and overall organizational success. The real challenge isn't just introducing AI; it's about making your employees feel valued, secure, and competent in a world that's rapidly evolving. We specialize in turning AI resistance into AI empowerment, ensuring your team not only adapts but thrives.
+                </p>
+              </div>
+              <Image
+                src="/images/lines-w-circles.png"
+                width={550}
+                height={550}
+                alt="AI in HR"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+              />
+            </div>
           </div>
         </section>
 
         <section className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6 mx-auto max-w-7xl">
+            <div className="grid gap-6 lg:grid-cols-[400px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
+              <Image
+                src="/images/suprematism-lines.png"
+                width={550}
+                height={550}
+                alt="Our Approach"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-first lg:aspect-square"
+              />
+              <div>
+                <h3 className="text-2xl font-bold mb-4">Our Approach</h3>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  We don't believe in a one-size-fits-all solution. Your organization has its unique culture, challenges, and goals. Our approach is tailored to meet those needs, focusing on:
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
+                  <li><strong>Research-Based Content</strong>: Our strategies are grounded in behavioral science and real-world research, not just marketing fluff. We provide HR teams with the tools and knowledge they need to integrate AI effectively and compassionately.</li>
+                  <li><strong>Employee Empowerment</strong>: We guide your employees through the AI transition, addressing fears and boosting confidence. We help them see AI as an ally in their work, not a threat.</li>
+                  <li><strong>Scalable Solutions</strong>: Our content and tools are designed to scale, providing high-impact, high-margin results that grow with your organization.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Value Proposition</h2>
             <p className="text-muted-foreground md:text-xl mb-8">
@@ -77,7 +104,7 @@ export const HomeBody = () => {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Discover the Power of AI in HR: Key Use Cases</h2>
             <p className="text-muted-foreground md:text-xl mb-8">
@@ -101,7 +128,7 @@ export const HomeBody = () => {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">The AI for HR Mastermind</h2>
             <p className="text-xl mb-8">Elevate your HR Strategy with our exclusive Mastermind Class</p>
@@ -131,7 +158,7 @@ export const HomeBody = () => {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Stay Ahead of the Curve</h2>
             <p className="text-muted-foreground md:text-xl mb-8">
