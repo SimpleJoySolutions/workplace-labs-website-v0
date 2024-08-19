@@ -37,15 +37,25 @@ export const HomeBody = () => {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Transforming HR with the Power of AI</h2>
-                <p className="text-muted-foreground md:text-xl mb-8">
-                  At Workplace Labs, we blend the expertise of an AI Engineer with the insights of a Workplace Psychologist to help your organization seamlessly integrate AI into your workforce. We understand that adopting AI isn't just about the technology—it's about your people. Our mission is to empower your employees by guiding them through the AI transformation process, ensuring they feel confident and supported every step of the way.
-                </p>
-                <h3 className="text-2xl font-bold mb-4">Why AI in HR?</h3>
+                <Link
+                  href="#"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 my-10 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                  prefetch={false}
+                >
+                  Download our Essential AI for HR Checklist
+                </Link>
+                <h3 className="text-2xl font-bold my-4">Why AI in HR?</h3>
                 <p className="text-muted-foreground md:text-xl mb-4">
-                  The future of work is here, and AI is leading the charge. <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">A staggering 81% of HR leaders are already exploring or implementing AI solutions.</Link>
+                  <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders are already exploring or implementing AI solutions.</Link>
+                </p>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  But AI is more than just a tool—it's a partner in enhancing productivity, job satisfaction, and overall organizational success.
+                </p>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  The real challenge isn't just introducing AI; it's about making your employees feel valued, secure, and competent in a world that's rapidly evolving.
                 </p>
                 <p className="text-muted-foreground md:text-xl mb-8">
-                  AI isn't just a tool—it's a game-changing partner in boosting productivity, job satisfaction, and organizational success. The real challenge? Making your employees feel valued, secure, and competent in this AI-driven world. We're experts at turning AI resistance into AI empowerment, ensuring your team doesn't just adapt—it thrives.
+                  We specialize in turning AI resistance into AI empowerment, ensuring your team not only adapts but thrives.
                 </p>
               </div>
               <Image
@@ -72,11 +82,21 @@ export const HomeBody = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Our Approach</h3>
                 <p className="text-muted-foreground md:text-xl mb-4">
+                  We blend AI Engineering with Workplace Psychology to help seamlessly integrate AI into your workforce.
+                </p>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  Adopting AI without buyer's remorse, disenchanted users, and wasted time isn't just about the technology—it's about your people.
+                </p>
+                <p className="text-muted-foreground md:text-xl mb-4">
+                  Our mission is to empower your employees by guiding them through the AI transformation process, ensuring they feel confident and supported every step of the way.
+                </p>
+                <p className="text-muted-foreground md:text-xl mb-4">
                   We don't believe in a one-size-fits-all solution. Your organization has its unique culture, challenges, and goals. Our approach is tailored to meet those needs, focusing on:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
                   <li><strong>Research-Based Content</strong>: Our strategies are grounded in behavioral science and real-world research, not just marketing fluff. We provide HR teams with the tools and knowledge they need to integrate AI effectively and compassionately.</li>
                   <li><strong>Employee Empowerment</strong>: We guide your employees through the AI transition, addressing fears and boosting confidence. We help them see AI as an ally in their work, not a threat.</li>
+                  <li><strong>Scalable Solutions</strong>: Our content and tools are designed to scale, providing high-impact, high-margin results that grow with your organization.</li>
                 </ul>
               </div>
             </div>
@@ -85,11 +105,11 @@ export const HomeBody = () => {
 
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Value Proposition</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Why Workplace Labs?</h2>
             <p className="text-muted-foreground md:text-xl mb-8">
               The difference between simply introducing another tool and making your staff feel empowered by AI is where we excel. We focus on:
             </p>
-            <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
+            <ul className="space-y-2 text-muted-foreground md:text-xl mb-8">
               <li><strong>AI Strategy</strong>: Helping HR teams understand where and how AI can be most effectively integrated into their workflows.</li>
               <li><strong>Content Mastery</strong>: Offering content that teaches practical AI application, fostering greater adoption and smoother transitions.</li>
               <li><strong>Overcoming Resistance</strong>: Navigating the complexities of change management, ensuring your team feels supported rather than overwhelmed.</li>
