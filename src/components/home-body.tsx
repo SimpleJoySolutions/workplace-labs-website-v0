@@ -16,9 +16,14 @@ export const HomeBody = () => {
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none py-4">
                     Get started with AI in your workplace.
                   </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Transforming HR with the Power of AI
-                  </p>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl py-8">Transforming HR with the Power of AI</h2>
+                <Link
+                  href="/ai-for-hr-checklist"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 my-10 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                  prefetch={false}
+                >
+                  Download our Essential AI for HR Checklist
+                </Link>
                 </div>
               </div>
               <Image
