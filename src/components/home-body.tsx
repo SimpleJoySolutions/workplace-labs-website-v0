@@ -132,7 +132,7 @@ export const HomeBody = () => {
                 'Upskilling & Reskilling Strategies: Design AI upskilling programs that prepare your workforce for the future.',
                 'Workforce Planning & Coordination: Use AI to improve scheduling, forecasting, and in-office coordination.'
               ].map((useCase, index) => (
-                <div key={index} className="bg-card p-6 rounded-lg shadow-sm">
+                <div key={index} className="bg-card p-6 rounded-lg shadow-sm border-2">
                   <h3 className="text-xl font-semibold mb-2">{useCase.split(':')[0]}</h3>
                   <p className="text-muted-foreground">{useCase.split(':')[1]}</p>
                 </div>
