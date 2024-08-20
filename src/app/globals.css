@@ -2,47 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --destructive-foreground: 0 0% 100%;
-    --secondary-foreground: 0 0% 100%;
-    --popover-foreground: 220 10% 20%;
-    --primary-foreground: 0 0% 100%;
-    --accent-foreground: 0 0% 100%;
-    --muted-foreground: 220 15% 40%;
-    --card-foreground: 220 10% 20%;
-    --destructive: 0 70% 50%;
-    --background: 210 25% 98%;
-    --foreground: 220 10% 20%;
-    --secondary: 30 100% 38%;
-    --popover: 210 25% 98%;
-    --primary: 200 70% 50%;
-    --border: 220 10% 80%;
-    --accent: 180 70% 34%;
-    --muted: 220 15% 90%;
-    --input: 220 10% 53%;
-    --card: 220 15% 95%;
-    --ring: 220 10% 20%;
-    --radius: 0.5rem;
-  }
+body {
+  @apply bg-primary text-textPrimary font-sans;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
 
-  body {
-    @apply bg-background text-foreground font-body;
-  }
+p {
+  @apply text-lg leading-relaxed text-textSecondary;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
-  }
-  .font-body {
-    font-family: var(--font-body);
-  }
-  .font-heading {
-    font-family: var(--font-heading);
-  }
+a {
+  @apply text-accent no-underline hover:underline;
+}
+
+button {
+  @apply bg-accent text-white py-2 px-4 rounded-md hover:bg-opacity-80;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
 }
