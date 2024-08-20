@@ -1,14 +1,26 @@
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export const HomeBody = () => {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="w-full py-12 md:py-24 lg:py-32"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <div className="flex flex-col justify-center space-y-4">
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="flex flex-col justify-center space-y-4"
+              >
                 <div className="space-y-2">
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Don&apos;t let your business fall behind.
@@ -25,22 +37,37 @@ export const HomeBody = () => {
                   Download our Essential AI for HR Checklist
                 </Link>
                 </div>
-              </div>
-              <Image
-                src="/images/bar-graph.png"
-                width={550}
-                height={550}
-                alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-              />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <Image
+                  src="/images/bar-graph.png"
+                  width={550}
+                  height={550}
+                  alt="Hero"
+                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+                />
+              </motion.div>
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full py-12 md:py-24 lg:py-32 bg-muted"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <div>
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Why AI in HR?</h2>
                 <p className="text-muted-foreground md:text-xl mb-4">
                   HR is one of AI's best early adopters — <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders say they're already exploring or using AI</Link>. But the flood of vendors and quickly changing information lead to AI rollouts that eventually cause buyer's remorse, disenchanted end users, and wasted time for your team. Here's what savvy HR leaders already know: AI isn't just about technology—it's about people.
@@ -48,29 +75,50 @@ export const HomeBody = () => {
                 <p className="text-muted-foreground md:text-xl mb-4">
                   The key to successful AI adoption lies in recognizing the human factors at play and addressing the needs, concerns, and aspirations of your workforce.
                 </p>
-              </div>
-              <Image
-                src="/images/lines-w-circles.png"
-                width={550}
-                height={550}
-                alt="AI in HR"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-              />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
+              >
+                <Image
+                  src="/images/lines-w-circles.png"
+                  width={550}
+                  height={550}
+                  alt="AI in HR"
+                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+                />
+              </motion.div>
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full py-12 md:py-24 lg:py-32"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
             <div className="grid gap-6 lg:grid-cols-[400px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
-              <Image
-                src="/images/suprematism-lines.png"
-                width={550}
-                height={550}
-                alt="Our Approach"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-first lg:aspect-square"
-              />
-              <div>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <Image
+                  src="/images/suprematism-lines.png"
+                  width={550}
+                  height={550}
+                  alt="Our Approach"
+                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-first lg:aspect-square"
+                />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
+              >
                 <h3 className="text-2xl font-bold mb-4">Our Approach</h3>
                 <p className="text-muted-foreground md:text-xl mb-4">
                   Our mission is to provide a different path toward successful AI adoption where your team and employees are empowered and supported. <strong>We blend practical AI Engineering know-how with Workplace Psychology insights to accelerate AI adoption in your workforce.</strong>
@@ -83,29 +131,68 @@ export const HomeBody = () => {
                   <li><strong>Psychological, Social, and Emotional Resistance to Tech</strong>: We help HR leaders and their teams identify practical AI use cases and develop functional prototypes. Our approach is unique in that we use hands-on demonstrations to address fears and boost confidence, overcoming mental, social, and emotional friction points. When handled correctly, teams see AI as an ally in their work.</li>
                   <li><strong>Scalable Solutions</strong>: We've designed our consulting guidance, tools, and frameworks to help you scale. We don't leave you with access to new tools or systems without a plan for how they will provide high-impact, high-margin results that grow with your organization.</li>
                 </ul>
-              </div>
+              </motion.div>
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full py-12 md:py-24 lg:py-32 bg-muted"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8">Why Workplace Labs?</h2>
-            <p className="text-muted-foreground md:text-xl mb-8">
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-3xl font-bold tracking-tighter sm:text-4xl mb-8"
+            >
+              Why Workplace Labs?
+            </motion.h2>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="text-muted-foreground md:text-xl mb-8"
+            >
               We not only help you identify high-value use cases for your team and business, our team has spent over two decades (combined) advising HR leaders and creating bespoke software solutions.
-            </p>
-            <p className="text-muted-foreground md:text-xl mb-8">
+            </motion.p>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
+              className="text-muted-foreground md:text-xl mb-8"
+            >
               Unlike other AI consultancies that take a technology-only approach to process and workflow transformation, we understand the challenges to successful AI adoption from an HR perspective (and have hands-on experience solving them).
-            </p>
+            </motion.p>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full py-12 md:py-24 lg:py-32"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Discover the Power of AI in HR: Key Use Cases</h2>
-            <p className="text-muted-foreground md:text-xl mb-8">
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4"
+            >
+              Discover the Power of AI in HR: Key Use Cases
+            </motion.h2>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="text-muted-foreground md:text-xl mb-8"
+            >
               These are just a few examples of the HR problems we have solved and how we can integrate AI:
-            </p>
+            </motion.p>
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 'Identifying Skills & Optimizing Tasks: We use job and task analysis to understand critical skills and identify where AI can add the most value to performing tasks across your organization.',
@@ -115,30 +202,59 @@ export const HomeBody = () => {
                 'Creating an Upskilling & Reskilling Strategy: We have conducted several studies on the changing skill requirements due to AI adoption and integration. We can assist with designing AI upskilling programs that prepare your workforce for the future.',
                 'Coordinating and Implementing Workforce Planning: We help you understand and measure the impacts of AI adoption on your workforce and use AI to improve scheduling, forecasting, and in-office coordination.'
               ].map((useCase, index) => (
-                <div key={index} className="bg-card p-6 rounded-lg shadow-sm border-2">
+                <motion.div 
+                  key={index} 
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 * (index + 4) }}
+                  className="bg-card p-6 rounded-lg shadow-sm border-2"
+                >
                   <h3 className="text-xl font-semibold mb-2">{useCase.split(':')[0]}</h3>
                   <p className="text-muted-foreground">{useCase.split(':')[1]}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <motion.section 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full py-12 md:py-24 lg:py-32 bg-muted"
+        >
           <div className="container px-4 md:px-6 mx-auto max-w-7xl text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Stay Ahead of the Curve</h2>
-            <p className="text-muted-foreground md:text-xl mb-8">
-              Sign up for our newsletter to stay up to date on future courses and the best of AI for HR.
-            </p>
-            <Link
-              href="#"
-              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4"
             >
-              Subscribe to Newsletter
-            </Link>
+              Stay Ahead of the Curve
+            </motion.h2>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="text-muted-foreground md:text-xl mb-8"
+            >
+              Sign up for our newsletter to stay up to date on future courses and the best of AI for HR.
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
+            >
+              <Link
+                href="#"
+                className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                prefetch={false}
+              >
+                Subscribe to Newsletter
+              </Link>
+            </motion.div>
           </div>
-        </section>
+        </motion.section>
       </main>
     </div>
   );
