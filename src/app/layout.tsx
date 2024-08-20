@@ -11,7 +11,7 @@ const fontHeading = Manrope({
   variable: '--font-heading',
 })
 
-const fontBody = Taviraj({
+const fontBody = Manrope({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body',

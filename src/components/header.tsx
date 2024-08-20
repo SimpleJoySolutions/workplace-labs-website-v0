@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className="px-4 lg:px-6 h-24 flex items-center">
+    <header className="px-4 lg:px-6 h-24 flex items-center border-b border-solid border-border">
       <Link href="/" className="flex items-center justify-center" prefetch={false}>
         <Image src="/images/logo-icon.webp" alt="AI Mastermind" width={80} height={80} className="max-h-12 w-auto" />
         <span className="sr-only">AI Mastermind</span>
@@ -22,4 +22,3 @@ export const Header = () => {
     </header>
   );
 };
-
