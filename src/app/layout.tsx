@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope } from 'next/font/google'
+import { Manrope, Taviraj } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import "./globals.css";
 import { Header } from "@/components/header";
@@ -11,7 +11,7 @@ const fontHeading = Manrope({
   variable: '--font-heading',
 })
 
-const fontBody = Manrope({
+const fontBody = Taviraj({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body',
