@@ -12,7 +12,7 @@ export const Header = () => {
         <Link href="/" className="text-md font-medium hover:underline underline-offset-4" prefetch={false}>
           Home
         </Link>
-        <Link href="/ai-for-hr-mastermind" className="text-md font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="https://www.aiforhrmastermind.com" className="text-md font-medium hover:underline underline-offset-4" prefetch={false}>
           AI for HR Mastermind
         </Link>
         <Link href="/about-us" className="text-md font-medium hover:underline underline-offset-4" prefetch={false}>
