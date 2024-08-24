@@ -70,7 +70,9 @@ export const HomeBody = () => {
               >
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Why AI in HR?</h2>
                 <p className="text-muted-foreground md:text-xl mb-4">
-                  HR is one of AI's best early adopters — <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders say they're already exploring or using AI</Link>. But the flood of vendors and quickly changing information lead to AI rollouts that eventually cause buyer's remorse, disenchanted end users, and wasted time for your team. Here's what savvy HR leaders already know: AI isn't just about technology—it's about people.
+                  HR is one of AI's best early adopters — <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders say they're already exploring or using AI</Link>. </p>
+                  <p> But the flood of vendors and quickly changing information lead to AI rollouts that eventually cause buyer's remorse, disenchanted end users, and wasted time for your team. </p> 
+                  <p> Here's what savvy HR leaders already know: AI isn't just about technology—it's about people.
                 </p>
                 <p className="text-muted-foreground md:text-xl mb-4">
                   The key to successful AI adoption lies in recognizing the human factors at play and addressing the needs, concerns, and aspirations of your workforce.
@@ -127,9 +129,15 @@ export const HomeBody = () => {
                   Specifically, we focus on:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground md:text-xl mb-8">
-                  <li><strong>Research-Based Frameworks</strong>: We created an HR-centered framework for AI adoption that is grounded in behavioral science and real-world research. This framework simplifies how to balance your organization's AI readiness, culture, and task-tech fit to create an effective and compassionate AI strategy.</li>
-                  <li><strong>Psychological, Social, and Emotional Resistance to Tech</strong>: We help HR leaders and their teams identify practical AI use cases and develop functional prototypes. Our approach is unique in that we use hands-on demonstrations to address fears and boost confidence, overcoming mental, social, and emotional friction points. When handled correctly, teams see AI as an ally in their work.</li>
-                  <li><strong>Scalable Solutions</strong>: We've designed our consulting guidance, tools, and frameworks to help you scale. We don't leave you with access to new tools or systems without a plan for how they will provide high-impact, high-margin results that grow with your organization.</li>
+                  <li><strong>Research-Based Frameworks</strong>
+                  <br />
+                  We created an HR-centered framework for AI adoption that is grounded in behavioral science and real-world research. This framework simplifies how to balance your organization's AI readiness, culture, and task-tech fit to create an effective and compassionate AI strategy.</li>
+                  <li><strong>Psychological, Social, and Emotional Resistance to Tech</strong>
+                  <br />
+                  We help HR leaders and their teams identify practical AI use cases and develop functional prototypes. Our approach is unique in that we use hands-on demonstrations to address fears and boost confidence, overcoming mental, social, and emotional friction points. When handled correctly, teams see AI as an ally in their work.</li>
+                  <li><strong>Scalable Solutions</strong> 
+                  <br />
+                  We've designed our consulting guidance, tools, and frameworks to help you scale. We don't leave you with access to new tools or systems without a plan for how they will provide high-impact, high-margin results that grow with your organization.</li>
                 </ul>
               </motion.div>
             </div>
@@ -142,7 +150,7 @@ export const HomeBody = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="w-full py-12 md:py-24 lg:py-32 bg-muted"
         >
-          <div className="container px-4 md:px-6 mx-auto max-w-7xl">
+          <div className="container px-6 md:px-8 mx-auto max-w-7xl">
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -250,7 +258,7 @@ export const HomeBody = () => {
                 className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
-                Subscribe to Newsletter
+                Join Our Newsletter
               </Link>
             </motion.div>
           </div>
