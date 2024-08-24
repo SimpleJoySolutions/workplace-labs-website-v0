@@ -70,9 +70,9 @@ export const HomeBody = () => {
               >
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Why AI in HR?</h2>
                 <p className="text-muted-foreground md:text-xl mb-4">
-                  HR is one of AI's best early adopters — <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders say they're already exploring or using AI</Link>. </p>
-                  <p> But the flood of vendors and quickly changing information lead to AI rollouts that eventually cause buyer's remorse, disenchanted end users, and wasted time for your team. </p> 
-                  <p> Here's what savvy HR leaders already know: AI isn't just about technology—it's about people.
+                  HR is one of AI's best early adopters — <Link href="https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">81% of HR leaders say they're already exploring or using AI</Link>.
+                  <br /> But the flood of vendors and quickly changing information lead to AI rollouts that eventually cause buyer's remorse, disenchanted end users, and wasted time for your team. 
+                  <br /> Here's what savvy HR leaders already know: AI isn't just about technology—it's about people.
                 </p>
                 <p className="text-muted-foreground md:text-xl mb-4">
                   The key to successful AI adoption lies in recognizing the human factors at play and addressing the needs, concerns, and aspirations of your workforce.
