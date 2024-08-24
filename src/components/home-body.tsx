@@ -246,7 +246,7 @@ export const HomeBody = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               <Link
-                href="https://newsletter.workplacelabs.io/p/4d84de5c-5ab7-453e-84c3-6c30c1f1bc2b"
+                href="https://newsletter.workplacelabs.io/"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
