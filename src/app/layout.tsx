@@ -24,27 +24,7 @@ const fontBody = Manrope({
 // })
 export const metadata: Metadata = {
   title: "Workplace Labs",
-  description: "A Workplace Psychologist and an AI Engineer empowering HR professionals with cutting-edge AI solutions.",
-  openGraph: {
-    title: "Workplace Labs",
-    description: "AI experts and technologists improving operations with AI.",
-    images: [
-      {
-        url: 'https://www.workplacelabs.io/images/bar-graph.png',
-        width: 1200,
-        height: 630,
-        alt: 'Workplace Labs',
-      },
-    ],
-    type: 'website',
-    url: 'https://www.workplacelabs.io/',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Workplace Labs',
-    description: 'A Workplace Psychologist and an AI Engineer empowering HR professionals with cutting-edge AI solutions.',
-    images: ['https://www.workplacelabs.io/images/bar-graph.png'],
-  },
+  description: "Workplace Labs is a group of AI experts and technologists that are helping companies to leverage the power of AI to improve their operations and products.",
 };
 
 export default function RootLayout({
