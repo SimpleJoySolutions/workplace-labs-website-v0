@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const fontHeading = Manrope({
   subsets: ['latin'],
@@ -61,6 +62,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-DHSXQX35HP" />
       </body>
     </html>
   )
