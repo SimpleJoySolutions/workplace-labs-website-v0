@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: 'Workplace Labs',
   description: 'A Workplace Psychologist and an AI Engineer empowering HR professionals with cutting-edge AI solutions.',
   openGraph: {
-    title: 'Workplace Labs - AI Adoption Experts',
+    title: 'Workplace Labs - AI Adoption',
     description: 'AI adoption grounded in behavioral science and real-world research.',
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Workplace Labs - AI Adoption Experts',
+    title: 'Workplace Labs - AI Adoption',
     description: 'AI adoption grounded in behavioral science and real-world research.',
     images: ['https://www.workplacelabs.com/images/og-image.png'],
   },
