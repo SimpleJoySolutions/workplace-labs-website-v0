@@ -7,7 +7,7 @@ import Home from "@/pages/Home";
 import AboutUs from "@/pages/AboutUs";
 import AiForHrMastermind from "@/pages/AiForHrMastermind";
 import AiForHrChecklist from "@/pages/AiForHrChecklist";
-import "./globals.css";
+import "@/styles/globals.css";
 
 // Import Manrope font
 import "@fontsource/manrope/400.css";
