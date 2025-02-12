@@ -21,12 +21,14 @@ export const Header = () => {
         >
           Home
         </Link>
-        <Link
-          to="/ai-for-hr-mastermind"
+        <a
+          href="https://www.aiforhrmastermind.com/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-md font-medium hover:underline underline-offset-4"
         >
           AI for HR Mastermind
-        </Link>
+        </a>
         <Link
           to="/about-us"
           className="text-md font-medium hover:underline underline-offset-4"

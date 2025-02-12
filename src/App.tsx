@@ -5,7 +5,6 @@ import { Footer } from "@/components/footer";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import Home from "@/pages/Home";
 import AboutUs from "@/pages/AboutUs";
-import AiForHrMastermind from "@/pages/AiForHrMastermind";
 import AiForHrChecklist from "@/pages/AiForHrChecklist";
 import "@/styles/globals.css";
 
@@ -28,7 +27,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/ai-for-hr-mastermind" element={<AiForHrMastermind />} />
           <Route path="/ai-for-hr-checklist" element={<AiForHrChecklist />} />
         </Routes>
       </main>
